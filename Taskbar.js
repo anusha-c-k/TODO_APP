@@ -84,7 +84,7 @@ function Taskbar() {
          
         {todoList.length === 0 && (
           
-          <div className="empty-message">
+          <div className="lines">
              No tasks yet. Add one to get started!
           </div>
         )}
@@ -130,5 +130,6 @@ function Taskbar() {
 )
 }
 export default Taskbar
+
 
 
