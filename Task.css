@@ -1,18 +1,18 @@
- .content {
+ .cont {
             display: grid;
             grid-template-columns: 2fr 300px;
             gap: 20px;
             height: 400px;
         }
 
-        .main-section {
+        .main {
             background: #1e293b;
             border: 1px solid #475569;
             border-radius: 12px;
             padding: 24px;
         }
 
-        .input-area {
+        .box {
             display: flex;
             gap: 8px;
             margin-bottom: 24px;
@@ -97,7 +97,7 @@
             overflow-y: auto;
         }
 
-        .empty-message{
+        .lines{
             text-align: center;
             padding: 40px;
             color: white;
@@ -162,4 +162,5 @@
 .delete-btn:hover {
     background: #334155;
     color: #ef4444;
+
         }
