@@ -20,8 +20,10 @@ function App() {
                 <button >Vibrant</button>
             </div>
       </header>
-        <Taskbar/>
-        {/* <Sidebar/>  */}
+        <div className='cont'>
+         <Taskbar/>
+         {/* <Sidebar/>   */}
+       </div>
     </div>
   );
 }
