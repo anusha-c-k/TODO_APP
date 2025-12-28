@@ -50,9 +50,9 @@ function Taskbar() {
      }
   
   return (
-    <div className="content">
-        <div className="main-section">
-            <div className="input-area">
+    <div className="cont">
+        <div className="main">
+            <div className="box">
                 <input ref={inputRef} type="text"  placeholder="Add a new task..." />
                 <select ref={priorityRef} defaultValue="Medium" id="prioritySelect">
                     <option  className='low' value='low' >Low</option>
@@ -130,4 +130,5 @@ function Taskbar() {
 )
 }
 export default Taskbar
+
 
